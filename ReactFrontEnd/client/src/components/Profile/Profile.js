@@ -15,7 +15,7 @@ class Profile extends Component {
   }
 
   async componentDidMount() {
-    const res = await axios.get("http://localhost:3001/users/2");
+    const res = await axios.get("http://localhost:3001/users/3");
     console.log(res);
 
     this.setState({
